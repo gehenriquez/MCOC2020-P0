@@ -59,4 +59,4 @@ Desempeño MATMUL:
 
 
 EL comportamiento que se observa es mas lineal y esto podria ocurrir producto de la memoria requerid, de hecho al observar el segundo grafico se ve como aumenta para todas las multiplicaciones el uso de mmemoria. Al requerir mas memoria es probable que el procesador no sea capaz de suplir la demanda de memoria de manera dinamica y requiera utilizar mas RAM o en su defecto memoria de disco, por medio de archivos de paginacion.
-Nuevamente se utiliza solo un procesador. Las imagenes fueron agregadas con nombre "plot_mimatmul.png" correspondiente al ploteo entregado por el programa y "procesador_mimatmul.png" para mostrar el funcionamiento del procesador.
+Nuevamente se utiliza solo un procesador. Las imagenes fueron agregadas con nombre "plot_mimatmul.png" correspondiente al ploteo entregado por el programa y "procesador_mimatmul.png" para mostrar el funcionamiento del procesador. Además se subio el archivo "mimatmul.py" y los archivos "matmulp{n}.txt" para los 10 archivos de texto (n con valores entre 0 y 9).
