@@ -56,3 +56,7 @@ Desempeño MATMUL:
 -Es lineal porque se utiliza la memoria RAM que funciona de manera mas dinamica, almacenando de a poco para ser utilizado a la brevedad.
 -Se esta utilizando la version de python 3.8.5 y version de numypy 1.19.1
 -Al correr el programa se utiliza un solo procesador, se puede ver en el archivo adjuntado con nombre "procesador.PNG".
+
+
+EL comportamiento que se observa es mas lineal y esto podria ocurrir producto de la memoria requerid, de hecho al observar el segundo grafico se ve como aumenta para todas las multiplicaciones el uso de mmemoria. Al requerir mas memoria es probable que el procesador no sea capaz de suplir la demanda de memoria de manera dinamica y requiera utilizar mas RAM o en su defecto memoria de disco, por medio de archivos de paginacion.
+Nuevamente se utiliza solo un procesador. Las imagenes fueron agregadas con nombre "plot_mimatmul.png" correspondiente al ploteo entregado por el programa y "procesador_mimatmul.png" para mostrar el funcionamiento del procesador.
